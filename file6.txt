@@ -1,9 +1,0 @@
-file 
-
-  public void setBrand(String brand) {
-        if(brand == null || brand.isEmpty()){
-            System.err.println("Brand of the phone can not be null or empty");
-            System.exit(1);
-        }
-        this.brand = brand;
-    }
